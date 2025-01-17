@@ -1,7 +1,18 @@
-# Hello, I'm Ayush Singh
+# Hello, I'm Ayush Singh 
+
+![Profile Banner](https://images.unsplash.com/photo-1620121692029-d088224ddc74?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+
 **Data Science & Finance Student @USYD**  
 
 I am currently pursuing a Data Science and Finance degree at the University of Sydney, where my primary intellectual curiosities revolve around advanced machine learning paradigms, high-dimensional data orchestration, and the synergy between quantitative finance models and cutting-edge AI. My research interests include developing scalable multi-model architectures, optimizing hyperparameters for XGBoost regressors with Bayesian techniques, and leveraging HPC concurrency for ephemeral AI pipelines.
+
+---
+
+## GitHub Stats
+
+![Ayush's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ayush-Singh-31&hide=prs,issues,contribs&show_icons=true&theme=transparent)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ayush-Singh-31&layout=compact&theme=transparent)
 
 ---
 
@@ -53,10 +64,3 @@ A geospatial analytics initiative using PostgreSQL + PostGIS and Python to calcu
 - **DevOps & Automation**: GitHub Actions, container-based workflows, CI/CD
 - **Analytical Techniques**: Statistical modeling, hierarchical decomposition, advanced time-series forecasting, and model interpretability
 
----
-
-## Future Trajectory
-
-I aim to synthesize my proficiency in quantitative finance with sophisticated AI toolchains to innovate in algorithmic trading, risk analysis, and large-scale data intelligence. My aspiration is to architect high-performance, multifaceted data systems that seamlessly integrate domain-specific knowledge with next-generation AI solutions.
-
-Feel free to connect or explore my repositories for a deeper dive into my work. I’m always enthusiastic about discussing concurrency optimizations, HPC strategies, and groundbreaking AI research!
