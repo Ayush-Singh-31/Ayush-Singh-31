@@ -1,66 +1,185 @@
-# Hello, I'm Ayush Singh 
+<!-- Profile README for github.com/Ayush-Singh-31/Ayush-Singh-31 -->
 
-![Profile Banner](https://images.unsplash.com/photo-1620121692029-d088224ddc74?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+<div align="center">
 
-**Data Science & Finance Student @USYD**  
+  <!-- Neon Banner (cohesive triadic palette, subtle glow, generous whitespace) -->
+  <svg width="100%" height="120" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ayush Singh • Quant • Data Science • ML">
+    <defs>
+      <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+        <stop stop-color="#00E5FF" offset="0%"/>
+        <stop stop-color="#7C4DFF" offset="50%"/>
+        <stop stop-color="#00E676" offset="100%"/>
+      </linearGradient>
+      <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="2.2" result="blur"/>
+        <feMerge>
+          <feMergeNode in="blur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+    </defs>
+    <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle"
+          font-family="SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+          font-size="30" font-weight="700" letter-spacing="2.5"
+          fill="url(#g)" filter="url(#glow)">
+      AYUSH SINGH • QUANT • DATA SCIENCE • ML
+    </text>
+  </svg>
 
-I am currently pursuing a Data Science and Finance degree at the University of Sydney, where my primary intellectual curiosities revolve around advanced machine learning paradigms, high-dimensional data orchestration, and the synergy between quantitative finance models and cutting-edge AI. My research interests include developing scalable multi-model architectures, optimizing hyperparameters for XGBoost regressors with Bayesian techniques, and leveraging HPC concurrency for ephemeral AI pipelines.
+  <!-- Gradient divider for hierarchy and rhythm -->
+  <svg width="88%" height="2" viewBox="0 0 100 2" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#00E5FF" offset="0%"/>
+      <stop stop-color="#7C4DFF" offset="50%"/>
+      <stop stop-color="#00E676" offset="100%"/>
+    </linearGradient>
+    <rect x="0" y="0" width="100" height="2" fill="url(#line)" rx="1"/>
+  </svg>
+
+  <br/>
+
+  <!-- Typing line (palette-aligned color, ample breathing room) -->
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=1000&color=7C4DFF&lines=USYD+Data+Science+%26+Finance;Quant+Research+%7C+ML+Theory+%7C+Markets;Building+Axion+Capital+Quant+Lab;Always+learning%2C+always+shipping" alt="typing banner"/>
+
+  <br/>
+
+  <!-- Quick stats badges (consistent shape, palette, and label casing) -->
+  <a href="https://komarev.com/ghpvc/?username=Ayush-Singh-31">
+    <img src="https://komarev.com/ghpvc/?username=Ayush-Singh-31&label=Profile%20Views&style=flat&color=7C4DFF" alt="Profile views"/>
+  </a>
+  <a href="https://www.linkedin.com/in/asin31/">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-asin31-0A66C2?logo=linkedin&logoColor=white&style=flat">
+  </a>
+  <a href="https://github.com/Ayush-Singh-31?tab=repositories">
+    <img alt="Repositories" src="https://img.shields.io/badge/Repos-active-00E676?logo=github&logoColor=white&style=flat">
+  </a>
+
+</div>
+
+<br/>
 
 ---
 
-## GitHub Stats
+## ⚡ About
 
-![Ayush's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ayush-Singh-31&hide=prs,issues,contribs&show_icons=true&theme=transparent)
+I study Data Science and Finance at the University of Sydney. I build clean research code and finance-flavoured ML projects. I like clear math, reproducible pipelines, and practical edge.
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ayush-Singh-31&layout=compact&theme=transparent)
-
----
-
-## Technical Focus
-
-- **Multi-Model Orchestration**: I employ ephemeral concurrency patterns (e.g., HPC cluster scaling, containerized workloads) to dynamically instantiate and manage multiple LLMs tailored for diverse problem domains.
-- **High-Dimensional Data Processing**: Expertise in Dask-based distributed data manipulation, iterative imputation methods, and sophisticated feature engineering for real-time market forecasting.
-- **Spatial and Geospatial Analytics**: Advanced knowledge of PostGIS for geospatial indexing and queries, harnessed to develop robust "bustling score" metrics and urban analytics pipelines.
-- **Explainable AI**: Proficient in generating SHAP values for local and global interpretability, especially in domains requiring transparency and interpretability of complex models.
-- **Quantitative Finance**: Strong background in statistical modeling, particularly time-series analysis and predictive modeling for market data. Emphasis on advanced regularization techniques and Bayesian optimization.
+- Location: Sydney  
+- Focus: Algorithmic trading, time series, probabilistic ML, representation learning  
+- Lab: Axion Capital Quant Lab
 
 ---
 
-## Pinned Projects
+## 🧰 Tech Stack
 
-### 1. Multi Model AI Agent
-**Repository**: [Multi Model AI Agent (link)](https://github.com/Ayush-Singh-31/Ai-Agent)  
-A robust orchestration script for managing multiple domain-specific Large Language Models (LLMs) using [Ollama](https://ollama.ai/). Key functionalities include:
-
-- **Dynamic Model Lifecycle**: Automatic creation and teardown of specialized LLMs via `ollama create` and `ollama rm`.
-- **Task Classification & Decomposition**: Breaks down user inputs into domain-specific tasks (e.g., Decider, Language, Task-Breaker) using hierarchical prompt engineering strategies.
-- **Contextual Session Management**: Maintains ephemeral states to facilitate concurrent usage of multiple LLM instances, enabling minimal overhead in HPC or containerized environments.
-- **Custom Parameterization**: Extendable logic to incorporate specialized hyperparameters, context windows, or advanced concurrency patterns for large-scale deployments.
-
-### 2. Real-Time Market Forecasting Model
-**Repository**: [Real-Time Market Forecasting (link)](https://github.com/Ayush-Singh-31/Market-Data-Forecasting)  
-An intricate pipeline for:
-
-- **High-Dimensionality**: Reading and aggregating large Parquet files with Dask while tracking and imputing missing data to maintain data consistency.
-- **Feature Engineering**: Automated transformations, scaling, and feature selection for downstream regression tasks.
-- **Modeling & Interpretability**: Employing an XGBoost regressor with R² ~ 0.99 and complementing it with SHAP-based explanations to illuminate model decisions.
-- **Next Steps**: Iterative improvement through Bayesian hyperparameter tuning, distributed training approaches, and domain-specific feature expansions.
-
-### 3. Greater Sydney Area Data Analysis Project
-**Repository**: [Sydney Bustling Score (link)](https://github.com/Ayush-Singh-31/Sydney-Postgres-Analysis)  
-A geospatial analytics initiative using PostgreSQL + PostGIS and Python to calculate a "bustling score" for distinct regions across Sydney:
-
-- **Database Architecture**: Advanced indexing for high-efficiency spatial queries; integrated with large-scale open datasets (e.g., public transport, green spaces, parking).
-- **Data Pipeline**: SQL scripts for schema creation and data cleaning, Python routines for data ingestion, spatial transformations, and generating visualizations.
-- **Analytics & Reporting**: Combines multiple city metrics—transport density, public amenities, population distribution—to build a comprehensive indicator of urban vibrancy.
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat)
+![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white&style=flat)
+![Pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white&style=flat)
+![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=111&style=flat)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=flat)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white&style=flat)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=flat)
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=111&style=flat)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=flat)
 
 ---
 
-## Skill Set
+## 🧪 Selected Work
 
-- **Languages**: Python (NumPy, Pandas, Dask), SQL (PostgreSQL, PostGIS), R (basic modeling)
-- **ML/AI Frameworks**: TensorFlow, PyTorch, XGBoost, scikit-learn
-- **Data Infrastructure**: Docker, HPC cluster orchestration, containerized ephemeral concurrency
-- **DevOps & Automation**: GitHub Actions, container-based workflows, CI/CD
-- **Analytical Techniques**: Statistical modeling, hierarchical decomposition, advanced time-series forecasting, and model interpretability
+<table>
+<tr>
+<td width="50%" valign="top">
 
+### ETF Forecasting
+
+`Stocks-ETFs`
+
+ML and statistical models for ETF price forecasting. Includes a compact `ETF` class for data handling and modeling.
+
+➡️ Repo: <a href="https://github.com/Ayush-Singh-31/Stocks-ETFs">Stocks-ETFs</a>
+
+</td>
+<td width="50%" valign="top">
+
+### Algorithmic Trading
+
+`Algorithmic-Trading`
+
+Research notebook for strategy prototyping, feature engineering, and quick backtests.
+
+➡️ Repo: <a href="https://github.com/Ayush-Singh-31/Algorithmic-Trading">Algorithmic-Trading</a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Stock Market Model
+
+`Stock-Market-Model`
+
+Supervised learning on equity data with train-test splits and simple evaluation.
+
+➡️ Repo: <a href="https://github.com/Ayush-Singh-31/Stock-Market-Model">Stock-Market-Model</a>
+
+</td>
+<td width="50%" valign="top">
+
+### Machine Learning Models
+
+`Machine-Learning-Models`
+
+Foundational implementations like linear and logistic regression with clean structure.
+
+➡️ Repo: <a href="https://github.com/Ayush-Singh-31/Machine-Learning-Models">Machine-Learning-Models</a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Reddit Persona Generator
+
+`Reddit-Persona-Generator`
+
+CLI tool that builds a persona from Reddit history using an LLM, with citations.
+
+➡️ Repo: <a href="https://github.com/Ayush-Singh-31/Reddit-Persona-Generator">Reddit-Persona-Generator</a>
+
+</td>
+<td width="50%" valign="top">
+
+### Quantum Simulation
+
+`Quantum-Simulation`
+
+Early experiments for quantum or physics-inspired computation.
+
+➡️ Repo: <a href="https://github.com/Ayush-Singh-31/Quantum-Simulation">Quantum-Simulation</a>
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📊 Live GitHub Widgets
+
+<div align="center">
+
+  <!-- Readme Stats -->
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Ayush-Singh-31&show_icons=true&include_all_commits=true&rank_icon=percentile&theme=transparent&hide_border=true" alt="GitHub stats"/>
+
+  <!-- Streaks -->
+  <img height="165" src="https://streak-stats.demolab.com?user=Ayush-Singh-31&theme=transparent&hide_longest_streak=true&hide_border=true" alt="GitHub streak"/>
+
+  <!-- Trophies -->
+  <img src="https://github-profile-trophy.vercel.app/?username=Ayush-Singh-31&theme=algolia&no-frame=true&no-bg=true&column=7" alt="GitHub trophies"/>
+
+  <!-- Activity Graph -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ayush-Singh-31&theme=github-compact&hide_border=true" alt="Activity graph"/>
+
+</div>
+
+---
